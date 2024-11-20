@@ -1,0 +1,55 @@
+.search{
+    width: 300px;
+    padding: 1%;
+    padding-left: 10px;
+    margin-left: 100px;
+    border-radius: 20px;
+    height:30px;
+    background-color: rgb(252, 248, 248);
+    
+}
+.headdings{
+    padding-left: 50px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 500px;
+
+}
+.box1{
+    background-color: rgb(243, 250, 251);
+    color: black;
+    
+}
+#a:hover{
+    color: black;
+    background-color: black;
+}
+.box2:hover{
+    box-shadow: 2px 2px 2px 2px gray;
+    height: 50px;
+    
+}
+.box3{
+    display: grid;
+            grid-template-areas: 'a1 b1' 'c1 d1' 'e1 f1';
+            width: 500px;
+            height: 200px;
+}
+.box3 >div{
+    width: 200px;
+    height: 200px;
+    /* padding: 100px; */
+    border: 1px solid black;
+    /* border-radius: 50% 50% grey; */
+    margin: 4px;
+    background-color: rgb(237, 233, 240);
+    color: white;
+    box-shadow: 4px 4px 4px gray;
+    padding-right: 100px;
+}
+.place1{
+    background-image: url(https://www.holidify.com/images/attr_square/1020.jpg);
+    background-size: cover;
+    background-position: center;
+    /* width: 500px; */
+}
